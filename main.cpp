@@ -1,7 +1,13 @@
 #include <iostream>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/ip.h>
+#include <arpa/inet.h>
+#include <unistd.h>
 
 int main() {
-    std::cout << "Hello world!!!\n";
+
 
     return 0;
 }
